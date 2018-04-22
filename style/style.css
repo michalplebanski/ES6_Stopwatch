@@ -1,0 +1,55 @@
+body {
+	background-color: grey;
+}
+
+.app {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+nav {
+	width: 40vw;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.button {
+	font-size: 4vh;
+	color: #fff;
+	text-decoration: none;
+}
+
+.button:hover {
+	opacity: 0.4;
+}
+
+.container {
+	min-height: 15vh;
+	width: 25vw;
+	margin: 6vh 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #379b3c;
+}
+
+.stopwatch {
+	font-size: 7vh;
+	color: #fff;
+	letter-spacing: 1vw;
+}
+
+.results {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin: 2vh 0;
+	color: #fff;
+	font-size: 4vh;
+}
