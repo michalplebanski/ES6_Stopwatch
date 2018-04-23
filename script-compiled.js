@@ -87,7 +87,7 @@ var Stopwatch = function () {
 		value: function deleteList() {
 			var list = document.getElementById('results');
 			while (list.firstChild) {
-				list.removeChild(parentUI.firstChild);
+				list.removeChild(list.firstChild);
 			}
 		}
 	}]);
