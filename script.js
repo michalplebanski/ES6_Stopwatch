@@ -49,8 +49,8 @@ class Stopwatch {
 	}
 
 	stop() {
-    	this.running = false;
-    	clearInterval(this.watch);
+    		this.running = false;
+    		clearInterval(this.watch);
 	}
 
 	save() {
